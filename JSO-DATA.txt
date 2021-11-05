@@ -25,7 +25,7 @@ document.oncontextmenu=new Function("muter2();return false");
 function keypressed(){alert("awok awok awok, kena depace");}
 document.onkeydown=keypressed;
 function kasih_tau(){
-alert('Hacked by Ngapak Crew');
+alert('mas hawk lagi belajar deface');
 }
 if(location.href.indexOf(' #sch.id site ')==-1)setTimeout("alert('awok awok awok kena depace');",3000);
 else setTimeout("kasih_tau()",3000);
