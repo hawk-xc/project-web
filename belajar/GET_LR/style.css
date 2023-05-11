@@ -1,0 +1,53 @@
+:root {
+  --primary: rgb(210, 200, 111);
+  --secondary: rgb(219, 208, 230);
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.container {
+  width: 300px;
+  border: 1px solid var(--primary);
+  padding: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.container .text-box {
+  border: 1px solid var(--secondary);
+  padding: 0.4rem;
+  margin: 0.4rem;
+  transition: 0.2s;
+  border-radius: 4%;
+
+  /* flex direction */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  color: rgb(47, 53, 52);
+}
+
+.container .text-box:hover {
+  background-color: rgb(190, 159, 222);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
